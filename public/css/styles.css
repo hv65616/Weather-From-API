@@ -1,0 +1,64 @@
+.text {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.heading1 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 40px;
+  color: #ccf2f4;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  margin: 110px 0 60px 0;
+}
+
+.text-input{
+  padding-top: 50px;
+}
+
+#cityInput {
+  margin-top: 110px;
+  border-radius: 25px;
+  padding: 10px 0;
+  border: 0;
+  width: 50%;
+  text-indent: 50%;
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
+  text-transform:capitalize;
+
+}
+
+.city {
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
+
+.btn-check {
+  margin-top: 20px;
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-size: 20px;
+  padding: 10px 5px;
+  background-color: #04AA6D;
+}
+.btn-check:hover {
+  background-color: #3e8e41;
+}
+.btn-check:active {
+  background-color: #3e8341;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body {
+  background-color: #865858;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+  margin: 200px 100px;
+}
