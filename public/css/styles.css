@@ -23,7 +23,7 @@
   padding: 10px 0;
   border: 0;
   width: 50%;
-  text-indent: 50%;
+  text-align: center;
   font-size: 20px;
   color: grey;
   font-weight: bold;
@@ -54,6 +54,7 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 body {
   background-color: #865858;
 }

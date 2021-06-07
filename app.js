@@ -38,8 +38,7 @@ app.post("/", function(req, res) {
       res.send();
     })
   });
-
-})
+});
 
 app.listen(3000, function() {
   console.log("Servere is running on port 3000");
