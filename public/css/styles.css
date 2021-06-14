@@ -1,5 +1,11 @@
 .text {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -18,33 +24,48 @@
 }
 
 #cityInput {
-  margin-top: 110px;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
   border-radius: 25px;
   padding: 10px 0;
   border: 0;
-  width: 50%;
-  text-align: center;
+  width: 100%;
   font-size: 20px;
   color: grey;
   font-weight: bold;
   text-transform:capitalize;
+  text-align: center;
 
 }
 
 .city {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
   font-family: 'Odibee Sans', cursive;
   letter-spacing: 10px;
   font-size: 30px;
 }
 
 .btn-check {
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-left: 160px;
+  margin-right: 150px;
   border: 0;
   border-radius: 15px;
   box-shadow: 0 9px #999;
   font-size: 20px;
   padding: 10px 5px;
   background-color: #04AA6D;
+  width: 30%;
+
 }
 .btn-check:hover {
   background-color: #3e8e41;
@@ -55,8 +76,20 @@
   transform: translateY(4px);
 }
 
-body {
-  background-color: #865858;
+.my-video {
+position: fixed;
+ right: 0;
+ bottom: 0;
+ min-width: 100%;
+ min-height: 100%;
+}
+
+p {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  color: pink;
 }
 footer {
   text-align: center;
