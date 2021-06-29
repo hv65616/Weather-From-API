@@ -8,6 +8,7 @@
   position: relative;
   margin-left: 50px;
   margin-right: 50px;
+
 }
 
 .heading1 {
@@ -15,8 +16,20 @@
   font-size: 40px;
   color: #ccf2f4;
   text-decoration: underline;
+  text-shadow: 10px 0 0 #FF0000;
   letter-spacing: 5px;
   margin: 110px 0 60px 0;
+  animation: fadeInAnimation ease 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 .text-input{
@@ -82,6 +95,12 @@ position: fixed;
  bottom: 0;
  min-width: 100%;
  min-height: 100%;
+}
+
+.weatherData{
+  margin-top: 20px;
+  display: flex;
+  position: relative;
 }
 
 p {
